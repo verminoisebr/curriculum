@@ -1,0 +1,82 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    margin: 0 auto;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    text-align: center;
+    color: #666666;    
+}
+
+img {
+    margin: 5px 3px 5px 0;
+    height: 27px;
+    width: 27px;   
+}
+
+.esquerda {
+    width: 35%;
+    height: 100%;
+    background-color: #e6e6e6;   
+    position: absolute;
+    line-height: 1.21;
+    margin-top: 5px;   
+}
+
+.direita {
+    width: 65%;
+    height: 100%;
+    background-color: white;  
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: justify;  
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+h2 {
+    color: #808080;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 0 7px 0;
+}
+
+.cargo, .empresa {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 3px 0;
+}
+
+.cargo {
+    margin-top: 15px;
+}
+
+.empresa {
+    color: #808080;
+}
+
+h3, h4 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+body {
+    line-height: 1.5;
+    
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
